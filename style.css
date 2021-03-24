@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(255, 253, 253);
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+}
+.container {
+  display: flex;
+  height: 500px;
+
+  margin: 7% auto;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.window {
+  display: flex;
+  width: 50%;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+/*right window*/
+.payment-info {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #4caf50;
+  border-bottom-left-radius: 3%;
+  border-top-left-radius: 3%;
+  color: azure;
+  padding-top: 150px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+/*left window*/
+.payment-form {
+  display: block;
+  width: 50%;
+
+  background-color: white;
+
+  border-style: solid solid solid none;
+  border-width: 0.5px;
+  z-index: 10;
+  padding-top: 58px;
+}
+
+.large-input {
+  display: block;
+  width: 70%;
+  height: 35px;
+  margin: 30px auto;
+  background-color: whitesmoke;
+  border-style: none none solid;
+}
+
+.large-input:hover {
+  border-style: none none solid;
+  border-width: 3px;
+}
+
+.half-input {
+  display: inline;
+  width: 28%;
+  height: 35px;
+  margin: 0 15px;
+  background-color: whitesmoke;
+  border-style: none none solid;
+}
+
+.half-input:hover {
+  border-style: none none solid;
+  border-width: 3px;
+}
+
+.btn {
+  display: block;
+  margin: 25px auto 10px;
+  width: 40%;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 15px;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn:hover {
+  background-color: #b8ffbb;
+  color: rgb(82, 81, 81);
+}
