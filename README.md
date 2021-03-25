@@ -8,6 +8,18 @@ Then. . . .
 
 When I code this challenge, I learnt so much about position, display and z-index. These things certanly will help me on future challenges.
 
+
+/-----------------------------------------/ 
+update 25-03 - Repairing page to be responsive on mobile plataform.
+
+What did I learn?
+
+-@media (max-width) solve so many problems
+-I love codeply.com
+-The importance to build a responsive page for all platforms
+
+/------------------------------------------/
+
 that's all for now.
 
 Contact me for any suggestions or help me to improve my DEV skills I will love it <3
