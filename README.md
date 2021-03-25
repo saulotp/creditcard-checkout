@@ -14,9 +14,10 @@ update 25-03 - Repairing page to be responsive on mobile plataform.
 
 What did I learn?
 
--@media (max-width) solve so many problems
--I love codeply.com
--The importance to build a responsive page for all platforms
+-bootstrap save so much time, I confess that I underestimated your potential.
+-@media (max-width) solve so many problems.
+-I love codeply.com.
+-The importance to build a responsive page for all platforms.
 
 /------------------------------------------/
 
