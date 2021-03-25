@@ -9,52 +9,31 @@ h1 {
 h2 {
   font-family: "Roboto Mono", monospace;
 }
-.container {
-  display: flex;
-  height: 500px;
-
-  margin: 7% auto;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-}
 
 .window {
-  display: flex;
-  width: 50%;
-  z-index: 10;
-  margin: 0 auto;
+  margin: 20% 12%;
+  width: 80%;
+  text-align: center;
 }
-
-/*right window*/
 .payment-info {
-  display: inline-block;
   width: 50%;
-  height: 100%;
-  box-sizing: border-box;
-  position: relative;
+  height: 500px;
   background-color: #4caf50;
   border-bottom-left-radius: 3%;
   border-top-left-radius: 3%;
   color: azure;
-  padding-top: 150px;
+  padding-top: 16%;
 }
-
 .icon {
   font-size: 50px;
 }
 
-/*left window*/
 .payment-form {
-  display: block;
-  width: 50%;
-
   background-color: white;
 
   border-style: solid solid solid none;
   border-width: 0.5px;
-  z-index: 10;
-  padding-top: 58px;
+  padding-top: 8%;
 }
 
 .large-input {
@@ -102,4 +81,104 @@ h2 {
 .btn:hover {
   background-color: #b8ffbb;
   color: rgb(82, 81, 81);
+}
+
+@media (max-width: 992px) {
+  .payment-info {
+    width: 100%;
+    height: 347px;
+    background-color: #4caf50;
+    /* border-bottom-left-radius: 3%; */
+    border-radius: 3%;
+    /* border-top-left-radius: 3%; */
+    color: azure;
+    padding-top: 16%%;
+  }
+
+  .payment-form {
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-top: 8%;
+  }
+  .large-input {
+    display: block;
+    width: 92%;
+    height: 35px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    border-style: none none solid;
+  }
+  .half-input {
+    display: inline;
+    width: 37%;
+    height: 35px;
+    margin: 0 15px;
+    background-color: whitesmoke;
+    border-style: none none solid;
+  }
+
+  .btn {
+    display: block;
+    margin: 27px auto 23px;
+    width: 70%;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
+@media (max-width: 400px) {
+  .payment-info {
+    width: 100%;
+    height: 347px;
+    background-color: #4caf50;
+    /* border-bottom-left-radius: 3%; */
+    border-radius: 3%;
+    /* border-top-left-radius: 3%; */
+    color: azure;
+    padding-top: 33%;
+  }
+
+  .payment-form {
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-top: 8%;
+  }
+  .large-input {
+    display: block;
+    width: 92%;
+    height: 35px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    border-style: none none solid;
+  }
+  .half-input {
+    display: inline;
+    width: 33%;
+    height: 35px;
+    margin: 0 15px;
+    background-color: whitesmoke;
+    border-style: none none solid;
+  }
+
+  .btn {
+    display: block;
+    margin: 27px auto 23px;
+    width: 70%;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    font-family: "Roboto Mono", monospace;
+  }
 }
